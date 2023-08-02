@@ -1,0 +1,257 @@
+main .start-content .title h1:first-of-type {
+  color: #BDBDBD;
+  font-weight: 300;
+  margin-top: 168px; }
+
+main .about-company h1:first-of-type, main .tasks h1:first-of-type, main .projects h1:first-of-type, main .form h1:first-of-type {
+  font-weight: 400;
+  color: #BDBDBD;
+  font-size: 46px; }
+
+main .form input, main .form textarea {
+  margin-top: 10px;
+  width: 391px;
+  height: 46px;
+  background-color: #F3F3F3;
+  color: #8D8D8D;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  border: 0; }
+  main .form input:focus, main .form textarea:focus {
+    outline: none; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; }
+
+header {
+  width: 100%;
+  height: 102px;
+  display: flex;
+  flex-direction: row; }
+  header img {
+    width: 70px;
+    height: 44px;
+    margin: 29px 0 0 135px; }
+    header img:hover {
+      cursor: pointer; }
+  header div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 220px; }
+  header p {
+    margin: 44px 0 0 0;
+    color: #333333;
+    font-weight: 400;
+    height: 20px; }
+    header p:hover {
+      cursor: pointer;
+      border-top: 1.5px solid #333333;
+      border-bottom: 1.5px solid #333333; }
+  header .logo {
+    width: 40%; }
+  header .navbar {
+    width: 60%; }
+
+main .start-content {
+  display: flex;
+  flex-direction: row; }
+  main .start-content .title {
+    margin-left: 135px;
+    width: 40%; }
+    main .start-content .title h1 {
+      margin: 0;
+      padding: 0;
+      color: #333333;
+      font-size: 68px; }
+    main .start-content .title button {
+      margin-top: 100px;
+      width: 53px;
+      height: 53px;
+      background-color: #FFFFFF;
+      border: 1px solid #F2F2F2; }
+      main .start-content .title button:hover {
+        cursor: pointer;
+        background-color: #F9F9F9; }
+    main .start-content .title div {
+      margin-top: 0px;
+      width: 142px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+      main .start-content .title div p {
+        color: #BDBDBD;
+        font-weight: 300;
+        font-size: 38px; }
+  main .start-content .title-content {
+    width: 60%;
+    margin-right: 135px;
+    position: relative;
+    display: inline-block; }
+    main .start-content .title-content img:first-of-type {
+      max-width: 100%;
+      height: auto;
+      display: block; }
+    main .start-content .title-content div {
+      display: flex;
+      flex-direction: row;
+      position: absolute;
+      width: 222px;
+      height: 71px;
+      bottom: 0;
+      left: 0;
+      background-color: #FFFFFF;
+      cursor: pointer;
+      font-family: 'Roboto', sans-serif;
+      color: #333333;
+      font-size: 12px;
+      font-weight: 400;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      main .start-content .title-content div:hover {
+        background-color: #F9F9F9; }
+main .about-company {
+  width: 1150px;
+  height: 465px;
+  margin: 120px 135px 0 135px;
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: row; }
+  main .about-company .about-info {
+    margin: 40px 100px 0 30px; }
+  main .about-company .about-images {
+    margin: 30px 0 30px 100px; }
+  main .about-company p {
+    font-size: 18px;
+    font-weight: 300; }
+  main .about-company .about-btn {
+    margin: 0;
+    width: 222px;
+    height: 71px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    font-size: 12px;
+    font-weight: 400; }
+    main .about-company .about-btn:hover {
+      background-color: #F9F9F9; }
+main .tasks {
+  margin: 120px 135px 0 135px; }
+  main .tasks div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  main .tasks p {
+    margin-left: 50px;
+    height: 144px;
+    line-height: 2;
+    font-size: 18px; }
+main .projects {
+  margin: 120px 135px 0 135px;
+  width: 1170px; }
+  main .projects div {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  main .projects img {
+    cursor: pointer; }
+  main .projects .projects-btn {
+    margin-top: 30px;
+    width: 222px;
+    height: 71px;
+    cursor: pointer;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 400;
+    float: right; }
+    main .projects .projects-btn:hover {
+      background-color: #555555; }
+main .form {
+  margin: 135px 0 120px 135px;
+  width: 1170px; }
+  main .form div:first-of-type {
+    display: flex; }
+  main .form textarea {
+    resize: none; }
+  main .form button {
+    margin-top: 30px;
+    width: 222px;
+    height: 71px;
+    cursor: pointer;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 400;
+    border: 0; }
+    main .form button:hover {
+      background-color: #555555; }
+  main .form p {
+    color: #8D8D8D;
+    font-size: 12px; }
+
+footer {
+  width: 100%;
+  height: 417px;
+  background-color: #333333; }
+  footer .footer-info {
+    display: flex; }
+  footer .footer-logo {
+    margin: 60px 0 0 116px;
+    width: 145px;
+    height: 95px; }
+  footer .info {
+    margin: 60px 220px 0 105px;
+    display: flex; }
+  footer .info-column {
+    margin-left: 100px; }
+  footer h3 {
+    color: #FFFFFF;
+    font-weight: 500; }
+  footer .links {
+    display: flex;
+    flex-direction: column; }
+  footer .link {
+    margin: 15px 0 0 0; }
+  footer a {
+    text-decoration: none;
+    margin: 0 0 0 10px; }
+    footer a:link {
+      color: #FFFFFF; }
+    footer a:visited {
+      color: #555555; }
+    footer a:hover {
+      color: #BDBDBD; }
+  footer p {
+    color: #FFFFFF;
+    cursor: pointer; }
+  footer .root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 67px;
+    border-top: 0.5px solid #404040; }
+  footer .root-p {
+    color: #9f9f9f;
+    font-weight: 200;
+    cursor: auto; }
+
+/*# sourceMappingURL=styles.css.map */
